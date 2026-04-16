@@ -1,184 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A4H&S Art Studio | Where Art Meets Soul</title>
-    <meta name="description" content="A4H&S Art Studio - Discover unique artwork, creative workshops, and bespoke art commissions. Where passion meets canvas.">
-    <link rel="icon" type="image/png" href="assets/images/logo.png">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Raleway:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="canonical" href="https://a4h.co.in">
-    <meta property="og:title" content="A4H&S Art Studio">
-    <meta property="og:description" content="Where Art Meets Soul - Discover unique artwork, creative workshops, and bespoke art commissions.">
-    <meta property="og:image" content="https://a4h.co.in/assets/images/logo.png">
-    <meta property="og:url" content="https://a4h.co.in">
-    <meta property="og:type" content="website">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>A4H&S Art Studio — Original Fine Art by Sonal</title>
+  <meta name="description" content="Original fine art paintings — oil, acrylic, and mixed media works available for sale. Experience the gallery. Own the art." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
-    <div id="preloader"><div class="loader"><div class="brush-stroke"></div></div></div>
-    <nav id="navbar" class="navbar">
-        <div class="nav-container">
-            <a href="#hero" class="nav-logo"><img src="assets/images/logo.png" alt="A4H&S Art Studio" class="logo-img"></a>
-            <div class="nav-menu" id="navMenu">
-                <a href="#hero" class="nav-link active">Home</a>
-                <a href="#about" class="nav-link">About</a>
-                <a href="#gallery" class="nav-link">Gallery</a>
-                <a href="#services" class="nav-link">Services</a>
-                <a href="#workshops" class="nav-link">Workshops</a>
-                <a href="#testimonials" class="nav-link">Testimonials</a>
-                <a href="#contact" class="nav-link">Contact</a>
-            </div>
-            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+
+  <!-- PRELOADER -->
+  <div id="preloader">
+    <div class="pre-inner">
+      <img src="assets/images/logo.png" alt="A4H&S" class="pre-logo" />
+      <div class="pre-line"></div>
+    </div>
+  </div>
+
+  <!-- NAVIGATION -->
+  <nav id="navbar">
+    <a href="#home" class="nav-logo">
+      <img src="assets/images/logo.png" alt="A4H&S Art Studio" />
+    </a>
+    <ul class="nav-links">
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact" class="nav-cta">Get in Touch</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- MOBILE NAV -->
+  <div id="mobile-nav">
+    <ul>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Get in Touch</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <img src="assets/images/logo.png" alt="A4H&S Art Studio" class="hero-logo" />
+      <p class="hero-tagline">Art For Heart &amp; Soul</p>
+      <p class="hero-sub">Original fine art &mdash; oil, acrylic &amp; mixed media</p>
+      <a href="#gallery" class="btn-gold">Enter the Gallery</a>
+    </div>
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section id="gallery" class="gallery-section">
+    <div class="section-header reveal">
+      <span class="section-label">The Collection</span>
+      <h2>Original Works</h2>
+      <p>Each painting is a one-of-a-kind original. Click any work to explore it fully.</p>
+    </div>
+
+    <div class="filter-bar reveal">
+      <button class="filter-btn active" data-filter="all">All Works</button>
+      <button class="filter-btn" data-filter="oil">Oil</button>
+      <button class="filter-btn" data-filter="acrylic">Acrylic</button>
+      <button class="filter-btn" data-filter="mixed-media">Mixed Media</button>
+    </div>
+
+    <div class="gallery-grid" id="galleryGrid"></div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about-section">
+    <div class="about-inner">
+      <div class="about-text reveal">
+        <span class="section-label">The Artist</span>
+        <h2>About A4H&amp;S</h2>
+        <p>A4H&amp;S &mdash; <em>Art for Heart &amp; Soul</em> &mdash; is the creative identity of artist Sonal, whose work spans oil, acrylic, and mixed media. Each piece is painted with devotion, born from a deep dialogue between emotion and pigment.</p>
+        <p>From intimate canvases to monumental murals, from devotional subjects rooted in India&rsquo;s spiritual heritage to bold explorations of feminine power and the natural world, every work invites the viewer into a direct, wordless encounter with feeling.</p>
+        <p>All works are one-of-a-kind originals, available for private collection worldwide.</p>
+      </div>
+      <div class="about-stats reveal">
+        <div class="stat">
+          <span class="stat-num" data-count="16">0</span>
+          <span class="stat-label">Original Works</span>
         </div>
-    </nav>
-    <section id="hero" class="hero">
-        <div class="hero-bg">
-            <div class="gold-particle" style="--delay:0s;--x:10%;--y:20%"></div>
-            <div class="gold-particle" style="--delay:1s;--x:80%;--y:30%"></div>
-            <div class="gold-particle" style="--delay:2s;--x:50%;--y:70%"></div>
-            <div class="gold-particle" style="--delay:0.5s;--x:30%;--y:80%"></div>
-            <div class="gold-particle" style="--delay:1.5s;--x:70%;--y:15%"></div>
-            <div class="gold-particle" style="--delay:2.5s;--x:90%;--y:60%"></div>
+        <div class="stat">
+          <span class="stat-num" data-count="3">0</span>
+          <span class="stat-label">Mediums</span>
         </div>
-        <div class="hero-content">
-            <div class="hero-text">
-                <p class="hero-subtitle animate-on-scroll">Welcome to</p>
-                <h1 class="hero-title animate-on-scroll">
-                    <span class="title-line">A4H&amp;S</span>
-                    <span class="title-line accent">Art Studio</span>
-                </h1>
-                <p class="hero-tagline animate-on-scroll">Where Art Meets Soul</p>
-                <div class="hero-cta animate-on-scroll">
-                    <a href="#gallery" class="btn btn-primary">Explore Gallery</a>
-                    <a href="#contact" class="btn btn-outline">Get in Touch</a>
-                </div>
-            </div>
+        <div class="stat">
+          <span class="stat-num" data-count="100">0</span>
+          <span class="stat-label">% Handmade</span>
         </div>
-        <div class="scroll-indicator"><div class="mouse"><div class="wheel"></div></div><p>Scroll to explore</p></div>
-    </section>
-    <section id="about" class="section about">
-        <div class="container">
-            <div class="section-header animate-on-scroll">
-                <span class="section-label">Our Story</span>
-                <h2 class="section-title">About <span class="accent">A4H&amp;S</span></h2>
-                <div class="title-underline"></div>
-            </div>
-            <div class="about-grid">
-                <div class="about-text animate-on-scroll">
-                    <p class="lead">A4H&amp;S Art Studio is a sanctuary for creativity, where every brushstroke tells a story and every canvas holds a piece of the soul.</p>
-                    <p>Founded with a passion for transforming emotions into visual masterpieces, we bring together traditional artistry and contemporary vision. Our studio is more than a workspace &mdash; it's a community of artists, dreamers, and art lovers united by the belief that art has the power to heal, inspire, and transform.</p>
-                    <p>From stunning original paintings to bespoke commissions, from intimate workshops to large-scale installations, A4H&amp;S is your destination for art that moves.</p>
-                    <div class="about-stats">
-                        <div class="stat"><span class="stat-number" data-target="500">0</span><span class="stat-suffix">+</span><span class="stat-label">Artworks Created</span></div>
-                        <div class="stat"><span class="stat-number" data-target="200">0</span><span class="stat-suffix">+</span><span class="stat-label">Happy Clients</span></div>
-                        <div class="stat"><span class="stat-number" data-target="50">0</span><span class="stat-suffix">+</span><span class="stat-label">Workshops Held</span></div>
-                    </div>
-                </div>
-                <div class="about-visual animate-on-scroll">
-                    <div class="about-image-frame">
-                        <div class="frame-accent"></div>
-                        <div class="about-placeholder">
-                            <svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg"><rect width="400" height="500" fill="#1a1a2e" rx="8"/><path d="M50 400 Q100 300 150 350 Q200 250 250 300 Q300 200 350 280 L350 450 Q350 458 342 458 L58 458 Q50 458 50 450Z" fill="#C9A84C" opacity="0.3"/><circle cx="300" cy="120" r="40" fill="#C9A84C" opacity="0.2"/><text x="200" y="260" text-anchor="middle" fill="#C9A84C" font-family="Playfair Display" font-size="20" opacity="0.5">Studio Image</text></svg>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT STRIP -->
+  <section id="contact" class="contact-strip reveal">
+    <div class="contact-inner">
+      <h2>Interested in a Piece?</h2>
+      <p>Commission enquiries and private collection sales welcome. Worldwide shipping available.</p>
+      <button class="btn-gold" id="generalEnquire">Send an Enquiry</button>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <img src="assets/images/logo.png" alt="A4H&S" class="footer-logo" />
+      <p class="footer-copy">&copy; 2025 A4H&amp;S Art Studio. All artworks are original and copyrighted.</p>
+      <p class="footer-email"><a href="mailto:anuqtech@gmail.com">anuqtech@gmail.com</a></p>
+    </div>
+  </footer>
+
+  <!-- LIGHTBOX -->
+  <div id="lightbox" class="lightbox" role="dialog" aria-modal="true">
+    <button class="lb-close" aria-label="Close">&times;</button>
+    <button class="lb-prev" aria-label="Previous">&#8592;</button>
+    <button class="lb-next" aria-label="Next">&#8594;</button>
+    <div class="lb-inner">
+      <div class="lb-image-wrap">
+        <img id="lbImage" src="" alt="" />
+      </div>
+      <div class="lb-info">
+        <span class="lb-medium" id="lbMedium"></span>
+        <h2 id="lbTitle"></h2>
+        <p class="lb-size" id="lbSize"></p>
+        <p class="lb-desc" id="lbDesc"></p>
+        <button class="btn-gold lb-buy" id="lbBuy">Enquire to Buy</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ENQUIRY MODAL -->
+  <div id="enquiryModal" class="modal" role="dialog" aria-modal="true">
+    <div class="modal-box">
+      <button class="modal-close" aria-label="Close">&times;</button>
+      <div class="modal-header">
+        <span class="section-label">Purchase Enquiry</span>
+        <h3 id="modalTitle">Enquire About This Work</h3>
+        <p id="modalSubtitle" class="modal-subtitle"></p>
+      </div>
+      <form id="enquiryForm" action="https://formsubmit.co/anuqtech@gmail.com" method="POST">
+        <input type="hidden" name="_subject" id="formSubject" value="Buy Painting" />
+        <input type="hidden" name="_template" value="table" />
+        <input type="hidden" name="_captcha" value="false" />
+        <input type="hidden" name="Painting" id="formPainting" value="" />
+        <input type="hidden" name="_next" value="https://a4h.co.in/" />
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="firstName">First Name *</label>
+            <input type="text" id="firstName" name="First Name" required placeholder="Your first name" />
+          </div>
+          <div class="form-group">
+            <label for="lastName">Last Name *</label>
+            <input type="text" id="lastName" name="Last Name" required placeholder="Your last name" />
+          </div>
         </div>
-    </section>
-    <section id="gallery" class="section gallery">
-        <div class="container">
-            <div class="section-header animate-on-scroll">
-                <span class="section-label">Our Work</span>
-                <h2 class="section-title">Art <span class="accent">Gallery</span></h2>
-                <div class="title-underline"></div>
-            </div>
-            <div class="gallery-filters animate-on-scroll">
-                <button class="filter-btn active" data-filter="all">All</button>
-                <button class="filter-btn" data-filter="paintings">Paintings</button>
-                <button class="filter-btn" data-filter="sculptures">Sculptures</button>
-                <button class="filter-btn" data-filter="digital">Digital Art</button>
-                <button class="filter-btn" data-filter="mixed">Mixed Media</button>
-            </div>
-            <div class="gallery-grid">
-                <div class="gallery-item animate-on-scroll" data-category="paintings"><div class="gallery-card"><div class="gallery-placeholder"><svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg"><rect width="400" height="400" fill="#1a1a2e"/><circle cx="200" cy="200" r="120" fill="none" stroke="#C9A84C" stroke-width="2" opacity="0.4"/><circle cx="200" cy="200" r="80" fill="none" stroke="#C9A84C" stroke-width="1" opacity="0.3"/><path d="M140 200 Q170 150 200 180 Q230 150 260 200 Q230 250 200 220 Q170 250 140 200Z" fill="#C9A84C" opacity="0.3"/></svg></div><div class="gallery-overlay"><h3>Golden Reverie</h3><p>Oil on Canvas</p></div></div></div>
-                <div class="gallery-item animate-on-scroll" data-category="sculptures"><div class="gallery-card"><div class="gallery-placeholder"><svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg"><rect width="400" height="400" fill="#1a1a2e"/><rect x="160" y="100" width="80" height="200" rx="40" fill="none" stroke="#C9A84C" stroke-width="2" opacity="0.4"/><ellipse cx="200" cy="130" rx="60" ry="40" fill="none" stroke="#C9A84C" stroke-width="1" opacity="0.3"/></svg></div><div class="gallery-overlay"><h3>Ethereal Form</h3><p>Bronze Sculpture</p></div></div></div>
-                <div class="gallery-item animate-on-scroll" data-category="digital"><div class="gallery-card"><div class="gallery-placeholder"><svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg"><rect width="400" height="400" fill="#1a1a2e"/><polygon points="200,80 320,280 80,280" fill="none" stroke="#C9A84C" stroke-width="2" opacity="0.4"/><polygon points="200,120 280,260 120,260" fill="none" stroke="#C9A84C" stroke-width="1" opacity="0.3"/></svg></div><div class="gallery-overlay"><h3>Digital Dreams</h3><p>Digital Illustration</p></div></div></div>
-                <div class="gallery-item animate-on-scroll" data-category="paintings"><div class="gallery-card"><div class="gallery-placeholder"><svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg"><rect width="400" height="400" fill="#1a1a2e"/><path d="M100 300 Q150 100 200 200 Q250 100 300 300" fill="none" stroke="#C9A84C" stroke-width="2" opacity="0.4"/></svg></div><div class="gallery-overlay"><h3>Whispering Hills</h3><p>Acrylic on Canvas</p></div></div></div>
-                <div class="gallery-item animate-on-scroll" data-category="mixed"><div class="gallery-card"><div class="gallery-placeholder"><svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg"><rect width="400" height="400" fill="#1a1a2e"/><rect x="120" y="120" width="160" height="160" fill="none" stroke="#C9A84C" stroke-width="2" opacity="0.4" transform="rotate(45,200,200)"/><circle cx="200" cy="200" r="60" fill="none" stroke="#C9A84C" stroke-width="1" opacity="0.3"/></svg></div><div class="gallery-overlay"><h3>Urban Mosaic</h3><p>Mixed Media</p></div></div></div>
-                <div class="gallery-item animate-on-scroll" data-category="digital"><div class="gallery-card"><div class="gallery-placeholder"><svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg"><rect width="400" height="400" fill="#1a1a2e"/><path d="M200 100 L300 200 L200 300 L100 200Z" fill="none" stroke="#C9A84C" stroke-width="2" opacity="0.4"/><circle cx="200" cy="200" r="40" fill="#C9A84C" opacity="0.15"/></svg></div><div class="gallery-overlay"><h3>Neon Pulse</h3><p>Digital Art</p></div></div></div>
-            </div>
+        <div class="form-group">
+          <label for="emailField">Email Address *</label>
+          <input type="email" id="emailField" name="Email" required placeholder="your@email.com" />
         </div>
-    </section>
-    <section id="services" class="section services">
-        <div class="container">
-            <div class="section-header animate-on-scroll"><span class="section-label">What We Offer</span><h2 class="section-title">Our <span class="accent">Services</span></h2><div class="title-underline"></div></div>
-            <div class="services-grid">
-                <div class="service-card animate-on-scroll"><div class="service-icon"><svg viewBox="0 0 64 64" fill="none"><path d="M32 8C18.7 8 8 18.7 8 32s10.7 24 24 24c2.2 0 4-1.8 4-4 0-1-.4-1.9-1-2.6-.6-.7-1-1.6-1-2.6 0-2.2 1.8-4 4-4h4.7c7.3 0 13.3-6 13.3-13.3C56 17.4 45.3 8 32 8z" stroke="#C9A84C" stroke-width="2"/><circle cx="20" cy="26" r="4" fill="#C9A84C"/><circle cx="28" cy="18" r="4" fill="#3D4451"/><circle cx="38" cy="18" r="4" fill="#C9A84C" opacity="0.6"/><circle cx="44" cy="26" r="4" fill="#3D4451" opacity="0.6"/></svg></div><h3>Custom Commissions</h3><p>Bring your vision to life with bespoke artwork tailored to your space, style, and story.</p></div>
-                <div class="service-card animate-on-scroll"><div class="service-icon"><svg viewBox="0 0 64 64" fill="none"><rect x="8" y="12" width="48" height="36" rx="4" stroke="#C9A84C" stroke-width="2"/><path d="M8 20h48" stroke="#C9A84C" stroke-width="2"/><path d="M20 28l8 8 16-16" stroke="#3D4451" stroke-width="2" stroke-linecap="round"/></svg></div><h3>Art Exhibitions</h3><p>Experience curated exhibitions showcasing emerging and established artists.</p></div>
-                <div class="service-card animate-on-scroll"><div class="service-icon"><svg viewBox="0 0 64 64" fill="none"><path d="M32 8v16M32 40v16M8 32h16M40 32h16" stroke="#C9A84C" stroke-width="2" stroke-linecap="round"/><circle cx="32" cy="32" r="8" stroke="#C9A84C" stroke-width="2"/></svg></div><h3>Art Workshops</h3><p>Unlock your creative potential with hands-on workshops led by professional artists.</p></div>
-                <div class="service-card animate-on-scroll"><div class="service-icon"><svg viewBox="0 0 64 64" fill="none"><path d="M12 52V20l20-12 20 12v32" stroke="#C9A84C" stroke-width="2" stroke-linejoin="round"/><rect x="24" y="36" width="16" height="16" stroke="#3D4451" stroke-width="2"/></svg></div><h3>Interior Art Consulting</h3><p>Transform your living or workspace with expert art consulting.</p></div>
-            </div>
+        <div class="form-group">
+          <label for="phone">Phone / WhatsApp</label>
+          <input type="tel" id="phone" name="Phone" placeholder="+91 or international" />
         </div>
-    </section>
-    <section id="workshops" class="section workshops">
-        <div class="container">
-            <div class="section-header animate-on-scroll"><span class="section-label">Learn &amp; Create</span><h2 class="section-title">Upcoming <span class="accent">Workshops</span></h2><div class="title-underline"></div></div>
-            <div class="workshops-grid">
-                <div class="workshop-card animate-on-scroll"><div class="workshop-date"><span class="day">25</span><span class="month">APR</span></div><div class="workshop-info"><h3>Watercolour Basics</h3><p>Learn fundamental watercolour techniques in this beginner-friendly session.</p><div class="workshop-meta"><span>10:00 AM - 1:00 PM</span><span>6 spots left</span></div><a href="#contact" class="btn btn-small">Book Now</a></div></div>
-                <div class="workshop-card animate-on-scroll"><div class="workshop-date"><span class="day">10</span><span class="month">MAY</span></div><div class="workshop-info"><h3>Abstract Expressions</h3><p>Explore the freedom of abstract art with acrylics and mixed media.</p><div class="workshop-meta"><span>2:00 PM - 5:00 PM</span><span>4 spots left</span></div><a href="#contact" class="btn btn-small">Book Now</a></div></div>
-                <div class="workshop-card animate-on-scroll"><div class="workshop-date"><span class="day">22</span><span class="month">MAY</span></div><div class="workshop-info"><h3>Portrait Drawing Masterclass</h3><p>Master the art of capturing human expression with pencil and charcoal.</p><div class="workshop-meta"><span>11:00 AM - 3:00 PM</span><span>8 spots left</span></div><a href="#contact" class="btn btn-small">Book Now</a></div></div>
-            </div>
+        <div class="form-group">
+          <label for="city">City / Country *</label>
+          <input type="text" id="city" name="City / Country" required placeholder="Where are you based?" />
         </div>
-    </section>
-    <section id="testimonials" class="section testimonials">
-        <div class="container">
-            <div class="section-header animate-on-scroll"><span class="section-label">Kind Words</span><h2 class="section-title">What People <span class="accent">Say</span></h2><div class="title-underline"></div></div>
-            <div class="testimonial-slider">
-                <div class="testimonial-track" id="testimonialTrack">
-                    <div class="testimonial-card"><div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>&ldquo;A4H&amp;S turned my vision into a breathtaking painting for our living room. The attention to detail and emotional depth is extraordinary.&rdquo;</p><div class="testimonial-author"><div class="author-avatar">P</div><div><strong>Priya Sharma</strong><span>Art Collector</span></div></div></div>
-                    <div class="testimonial-card"><div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>&ldquo;The watercolour workshop was transformative. I went in as a complete beginner and left with a new passion. Incredible instructors!&rdquo;</p><div class="testimonial-author"><div class="author-avatar">R</div><div><strong>Rahul Mehta</strong><span>Workshop Attendee</span></div></div></div>
-                    <div class="testimonial-card"><div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>&ldquo;Their art consulting service completely transformed our office space. Every piece was thoughtfully chosen and perfectly placed.&rdquo;</p><div class="testimonial-author"><div class="author-avatar">A</div><div><strong>Anita Desai</strong><span>Business Owner</span></div></div></div>
-                </div>
-                <div class="testimonial-nav"><button class="testimonial-prev" aria-label="Previous testimonial">&#8592;</button><div class="testimonial-dots" id="testimonialDots"></div><button class="testimonial-next" aria-label="Next testimonial">&#8594;</button></div>
-            </div>
+        <div class="form-group">
+          <label for="msgField">Message</label>
+          <textarea id="msgField" name="Message" rows="3" placeholder="Any questions or special requests&hellip;"></textarea>
         </div>
-    </section>
-    <section id="contact" class="section contact">
-        <div class="container">
-            <div class="section-header animate-on-scroll"><span class="section-label">Reach Out</span><h2 class="section-title">Get in <span class="accent">Touch</span></h2><div class="title-underline"></div></div>
-            <div class="contact-grid">
-                <div class="contact-info animate-on-scroll">
-                    <div class="contact-item"><div class="contact-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><h4>Visit Us</h4><p>A4H&amp;S Art Studio<br>Your City, India</p></div></div>
-                    <div class="contact-item"><div class="contact-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div><div><h4>Email Us</h4><p><a href="mailto:hello@a4h.co.in">hello@a4h.co.in</a></p></div></div>
-                    <div class="contact-item"><div class="contact-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.12.8.3 1.56.52 2.29a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.73.22 1.5.4 2.29.52A2 2 0 0 1 22 16.92z"/></svg></div><div><h4>Call Us</h4><p><a href="tel:+919876543210">+91 98765 43210</a></p></div></div>
-                    <div class="social-links">
-                        <a href="#" class="social-link" aria-label="Instagram"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/></svg></a>
-                        <a href="#" class="social-link" aria-label="Facebook"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
-                        <a href="#" class="social-link" aria-label="YouTube"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19.13C5.12 19.56 12 19.56 12 19.56s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg></a>
-                    </div>
-                </div>
-                <form class="contact-form animate-on-scroll" id="contactForm">
-                    <div class="form-group"><input type="text" id="name" name="name" required placeholder=" "><label for="name">Your Name</label></div>
-                    <div class="form-group"><input type="email" id="email" name="email" required placeholder=" "><label for="email">Your Email</label></div>
-                    <div class="form-group"><select id="subject" name="subject" required><option value="" disabled selected>Select a subject</option><option value="commission">Custom Commission</option><option value="workshop">Workshop Inquiry</option><option value="consulting">Art Consulting</option><option value="exhibition">Exhibition Information</option><option value="other">Other</option></select></div>
-                    <div class="form-group"><textarea id="message" name="message" rows="5" required placeholder=" "></textarea><label for="message">Your Message</label></div>
-                    <button type="submit" class="btn btn-primary btn-full">Send Message</button>
-                </form>
-            </div>
-        </div>
-    </section>
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-brand"><img src="assets/images/logo.png" alt="A4H&amp;S" class="footer-logo"><p>Where Art Meets Soul. Creating beauty, inspiring hearts, transforming spaces since day one.</p></div>
-                <div class="footer-links"><h4>Quick Links</h4><a href="#about">About Us</a><a href="#gallery">Gallery</a><a href="#services">Services</a><a href="#workshops">Workshops</a><a href="#contact">Contact</a></div>
-                <div class="footer-links"><h4>Services</h4><a href="#services">Custom Commissions</a><a href="#services">Art Exhibitions</a><a href="#services">Workshops</a><a href="#services">Art Consulting</a></div>
-            </div>
-            <div class="footer-bottom"><p>&copy; 2026 A4H&amp;S Art Studio. All rights reserved.</p><p>Crafted with <span class="accent">&hearts;</span> and creativity</p></div>
-        </div>
-    </footer>
-    <button id="backToTop" class="back-to-top" aria-label="Back to top"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="18 15 12 9 6 15"/></svg></button>
-    <script src="assets/js/app.js"></script>
+        <button type="submit" class="btn-gold btn-full">Send Enquiry</button>
+        <p class="form-note">We respond within 24 hours. Your details are kept private.</p>
+      </form>
+    </div>
+  </div>
+
+  <div class="overlay" id="overlay"></div>
+
+  <script src="assets/js/app.js"></script>
 </body>
 </html>
